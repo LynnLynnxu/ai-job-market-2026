@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026 AI岗位市场趋势看板</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f0f2f5;color:#1a1a2e;padding:24px}
+.container{max-width:1440px;margin:0 auto}
+
+.header{background:linear-gradient(135deg,#0f172a 0%,#1e3a5f 100%);border-radius:16px;padding:32px 36px;margin-bottom:24px;position:relative;overflow:hidden}
+.header h1{font-size:26px;color:#fff}
+.header .sub{font-size:13px;color:rgba(255,255,255,0.55);margin-top:6px}
+.header .tags{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.header .tags span{background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.12);border-radius:14px;padding:4px 12px;font-size:12px;color:rgba(255,255,255,0.85)}
+
+.section{background:white;border-radius:12px;padding:22px 24px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,0.04)}
+.section-title{font-size:17px;font-weight:700;margin-bottom:16px;padding-left:12px;border-left:3px solid #2563eb;display:flex;align-items:center;gap:8px}
+.section-title .cnt{background:#e8f0fe;color:#1d4ed8;font-size:11px;padding:1px 9px;border-radius:8px;font-weight:500}
+.section-desc{font-size:13px;color:#6b7280;margin:-10px 0 14px 15px}
+
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+@media(max-width:860px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}}
+
+.stat-card{background:white;border-radius:10px;padding:18px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.05)}
+.stat-card .num{font-size:28px;font-weight:800;color:#1e3a5f;line-height:1.2}
+.stat-card .label{font-size:12px;color:#6b7280;margin-top:4px}
+.stat-card .src{font-size:11px;color:#9ca3af;margin-top:2px}
+
+.mkt-card{background:white;border-radius:10px;padding:16px;border:1px solid #e5e7eb}
+.mkt-title{font-weight:700;font-size:14px;margin-bottom:6px}
+.mkt-desc{font-size:12px;color:#555;line-height:1.6}
+
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{background:#f8fafc;color:#475569;font-weight:600;padding:8px 10px;text-align:left;border-bottom:2px solid #e2e8f0;white-space:nowrap}
+td{padding:8px 10px;border-bottom:1px solid #f1f5f9;vertical-align:middle}
+tr:hover td{background:#f8faff}
+
+.insight{background:#f0f7ff;border-left:4px solid #2563eb;border-radius:8px;padding:12px 16px;margin-bottom:8px;font-size:13px;line-height:1.7;color:#374151}
+.insight strong{color:#1e40af}
+
+.conclusion-box{background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 18px;margin-bottom:10px}
+.conclusion-box .ctitle{font-weight:700;font-size:14px;color:#92400e;margin-bottom:6px}
+.conclusion-box .item{font-size:13px;color:#78350f;margin:5px 0;padding-left:10px;border-left:3px solid #f59e0b;line-height:1.6}
+
+.warn{background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:12px 16px;font-size:12px;color:#991b1b;margin-top:12px}
+.footer{text-align:center;padding:24px;color:#9ca3af;font-size:11px}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>AI 岗位市场趋势看板</h1>
+  <div class="sub">内部候选人调研 + 同行招聘分析 + 脉脉/猎聘/前程无忧/证券时报 2026年公开报告</div>
+  <div class="tags">
+    <span>📊 100个在招岗位</span>
+    <span>🏢 19家公司</span>
+    <span>📈 市场: 岗位量暴增12倍</span>
+    <span>💰 月薪中位数40K</span>
+  </div>
+</div>
+
+<div class="grid-4">
+  <div class="stat-card"><div class="num">155</div><div class="label">总招聘需求(人)</div><div class="src">调研岗位汇总</div></div>
+  <div class="stat-card"><div class="num">100</div><div class="label">总岗位数</div><div class="src">19家公司</div></div>
+  <div class="stat-card"><div class="num">40K</div><div class="label">月薪中位数</div><div class="src">含薪资岗位统计</div></div>
+  <div class="stat-card"><div class="num">500万</div><div class="label">AI人才缺口</div><div class="src">行业报告综合</div></div>
+</div>
+
+<div class="grid-2">
+  <div class="section" style="margin:0">
+    <div class="section-title">🔍 市场趋势速览 <span class="cnt">4条</span></div>
+    <div class="mkt-card" style="border-top:3px solid #1d4ed8"><div class="mkt-title">📈 岗位量暴涨12倍</div><div class="mkt-desc">脉脉2026春招报告: AI岗位量同比增长12倍，平均月薪超6万元</div></div><div class="mkt-card" style="border-top:3px solid #7c3aed"><div class="mkt-title">💰 AI科学家月薪13万+</div><div class="mkt-desc">AI科学家/负责人平均月薪超13万元，断层领先其他技术岗位</div></div><div class="mkt-card" style="border-top:3px solid #dc2626"><div class="mkt-title">🏭 人才缺口500万</div><div class="mkt-desc">行业报告显示国内AI人才缺口约500万，供需结构性失衡严重</div></div><div class="mkt-card" style="border-top:3px solid #0891b2"><div class="mkt-title">🤖 具身智能暴增15倍</div><div class="mkt-desc">脉脉: 具身智能岗位暴增15倍，平均年薪超30万</div></div>
+  </div>
+  <div class="section" style="margin:0">
+    <div class="section-title">📊 薪资区间分布 <span class="cnt">99个岗位</span></div>
+    <div class="section-desc">全体AI岗位月薪呈橄榄形分布，中位数40K</div>
+    <div style="max-width:100%"><table><tr><th>月薪区间</th><th style="width:60px">数量</th><th>分布</th></tr><tr><td style="font-weight:600">10-15K</td><td style="text-align:center">3</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:10%;background:#6b7280;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">15-25K</td><td style="text-align:center">8</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:26%;background:#0891b2;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">25-35K</td><td style="text-align:center">24</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:80%;background:#2563eb;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">35-45K</td><td style="text-align:center">30</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:100%;background:#7c3aed;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">45-55K</td><td style="text-align:center">19</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:63%;background:#059669;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">55-70K</td><td style="text-align:center">12</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:40%;background:#d97706;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">70K+</td><td style="text-align:center">3</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:10%;background:#dc2626;border-radius:5px"></div></div></td></tr></table></div>
+    <div class="insight" style="margin-top:10px"><strong>橄榄形分布：</strong>过半岗位集中在25-55K。70K+高薪来自大厂架构师/专家级（阿里110K、美团95K）。低端10-16K多为传统开发岗"挂AI名"，统计时需识别。</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">🧩 岗位类型分布 <span class="cnt">100个岗位</span></div>
+  <div class="section-desc">按职位关键词自动归类，非典型AI岗已标记</div>
+  <table><tr><th>岗位类型</th><th>数量</th><th>有薪资/总数</th><th>薪资范围</th><th>分布</th></tr><tr><td style="font-weight:600">算法工程师</td><td style="text-align:center">22</td><td style="text-align:center">22/22</td><td style="color:#059669;font-weight:600">46K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:100%;background:#2563eb;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">AI全栈/开发</td><td style="text-align:center">20</td><td style="text-align:center">19/20</td><td style="color:#059669;font-weight:600">31K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:90%;background:#7c3aed;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">Agent开发/架构</td><td style="text-align:center">13</td><td style="text-align:center">13/13</td><td style="color:#059669;font-weight:600">42K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:59%;background:#059669;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">其他AI岗位</td><td style="text-align:center">11</td><td style="text-align:center">11/11</td><td style="color:#059669;font-weight:600">42K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:50%;background:#d97706;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">AI产品经理</td><td style="text-align:center">11</td><td style="text-align:center">11/11</td><td style="color:#059669;font-weight:600">35K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:50%;background:#0891b2;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">AI架构师</td><td style="text-align:center">10</td><td style="text-align:center">10/10</td><td style="color:#059669;font-weight:600">43K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:45%;background:#dc2626;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">AI运营/营销</td><td style="text-align:center">4</td><td style="text-align:center">4/4</td><td style="color:#059669;font-weight:600">26K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:18%;background:#6b7280;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">数据科学/AI</td><td style="text-align:center">4</td><td style="text-align:center">4/4</td><td style="color:#059669;font-weight:600">45K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:18%;background:#be185d;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">非典型AI岗</td><td style="text-align:center">3</td><td style="text-align:center">3/3</td><td style="color:#059669;font-weight:600">20K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:13%;background:#0d9488;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">具身智能/感知</td><td style="text-align:center">1</td><td style="text-align:center">1/1</td><td style="color:#059669;font-weight:600">65K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:4%;background:#92400e;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">AI测试/质量</td><td style="text-align:center">1</td><td style="text-align:center">1/1</td><td style="color:#059669;font-weight:600">40K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:4%;background:#2563eb;border-radius:5px"></div></div></td></tr></table>
+</div>
+
+<div class="section">
+  <div class="section-title">📈 经验-薪酬曲线分析 <span class="cnt">99个岗位</span></div>
+  <div class="section-desc">AI岗位的经验与薪资并非线性关系——关键在于做了什么事而非做了多少年</div>
+  <div class="grid-4">
+    <div style="background:white;border-radius:12px;padding:18px;border:1px solid #e5e7eb;display:flex;flex-direction:column;gap:8px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-weight:700;font-size:16px;color:#0891b2">0-2年</div>
+        <div style="font-size:11px;color:#9ca3af">17个岗位</div>
+      </div>
+      <div style="display:flex;align-items:baseline;gap:6px">
+        <span style="font-size:28px;font-weight:800;color:#1e3a5f">36K</span>
+        <span style="font-size:12px;color:#9ca3af">/月 平均</span>
+      </div>
+      <div style="font-size:11px;color:#6b7280">范围 12K - 65K</div>
+      <div style="margin:4px 0"><div style="height:14px;background:#e5e7eb;border-radius:7px;overflow:hidden"><div style="height:100%;width:75%;background:#0891b2;border-radius:7px"></div></div></div>
+      <div style="font-size:11px;color:#374151;line-height:1.6"><span style="font-size:11px;color:#555">孟亚楠 &middot; 高级算法工程师（北京） (35-65K)</span><br><span style="font-size:11px;color:#555">孟亚楠 &middot; AI infra规划架构师(深圳) (30-60K)</span></div>
+    </div>
+    <div style="background:white;border-radius:12px;padding:18px;border:1px solid #e5e7eb;display:flex;flex-direction:column;gap:8px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-weight:700;font-size:16px;color:#2563eb">3-5年</div>
+        <div style="font-size:11px;color:#9ca3af">59个岗位</div>
+      </div>
+      <div style="display:flex;align-items:baseline;gap:6px">
+        <span style="font-size:28px;font-weight:800;color:#1e3a5f">39K</span>
+        <span style="font-size:12px;color:#9ca3af">/月 平均</span>
+      </div>
+      <div style="font-size:11px;color:#6b7280">范围 10K - 110K</div>
+      <div style="margin:4px 0"><div style="height:14px;background:#e5e7eb;border-radius:7px;overflow:hidden"><div style="height:100%;width:82%;background:#2563eb;border-radius:7px"></div></div></div>
+      <div style="font-size:11px;color:#374151;line-height:1.6"><span style="font-size:11px;color:#555">孟亚楠 &middot; 大模型算法/工程（上海） (80-110K)</span><br><span style="font-size:11px;color:#555">顺丰 &middot; AI效能提升算法工程师（深圳） (50-80K)</span></div>
+    </div>
+    <div style="background:white;border-radius:12px;padding:18px;border:1px solid #e5e7eb;display:flex;flex-direction:column;gap:8px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-weight:700;font-size:16px;color:#7c3aed">6-8年</div>
+        <div style="font-size:11px;color:#9ca3af">21个岗位</div>
+      </div>
+      <div style="display:flex;align-items:baseline;gap:6px">
+        <span style="font-size:28px;font-weight:800;color:#1e3a5f">42K</span>
+        <span style="font-size:12px;color:#9ca3af">/月 平均</span>
+      </div>
+      <div style="font-size:11px;color:#6b7280">范围 15K - 100K</div>
+      <div style="margin:4px 0"><div style="height:14px;background:#e5e7eb;border-radius:7px;overflow:hidden"><div style="height:100%;width:88%;background:#7c3aed;border-radius:7px"></div></div></div>
+      <div style="font-size:11px;color:#374151;line-height:1.6"><span style="font-size:11px;color:#555">顺丰 &middot; 数智化供应链解决方案专家（深圳） (70-100K)</span><br><span style="font-size:11px;color:#555">孟亚楠 &middot; 用户增长java工程师-AI Age... (65-95K)</span></div>
+    </div>
+    <div style="background:white;border-radius:12px;padding:18px;border:1px solid #e5e7eb;display:flex;flex-direction:column;gap:8px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-weight:700;font-size:16px;color:#dc2626">9年+</div>
+        <div style="font-size:11px;color:#9ca3af">2个岗位</div>
+      </div>
+      <div style="display:flex;align-items:baseline;gap:6px">
+        <span style="font-size:28px;font-weight:800;color:#1e3a5f">48K</span>
+        <span style="font-size:12px;color:#9ca3af">/月 平均</span>
+      </div>
+      <div style="font-size:11px;color:#6b7280">范围 25K - 65K</div>
+      <div style="margin:4px 0"><div style="height:14px;background:#e5e7eb;border-radius:7px;overflow:hidden"><div style="height:100%;width:100%;background:#dc2626;border-radius:7px"></div></div></div>
+      <div style="font-size:11px;color:#374151;line-height:1.6"><span style="font-size:11px;color:#555">万邑通 &middot; AI平台架构师（深圳） (50-65K)</span><br><span style="font-size:11px;color:#555">顺丰 &middot; AI营销策略（深圳） (25-50K)</span></div>
+    </div></div>
+  <div class="insight" style="margin-top:14px">
+    <strong>关键发现：</strong>3-5年和6-8年经验段的平均月薪仅差3K，薪资增速在6年后明显趋缓。高薪不来自年限累积，而来自"行业深度+AI能力"的复合价值。
+    <strong>信息差窗口：</strong>候选人数据中10年+经验的蒋磊(IoT+AI全栈)期望55W年薪、曾祖涛(Golang+LangChain+分布式)期望65W年薪，均低于大厂同级岗位市场价——资深AI人才对自身价值认知普遍偏低，招聘方可把握。
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">🏢 物流行业 AI 岗位薪资对比 <span class="cnt">13家公司</span></div>
+  <table><tr><th>公司</th><th>AI岗位数</th><th>薪资范围(月)</th><th>平均月薪</th><th>相对水平</th></tr><tr><td style="font-weight:600">跨越</td><td>3</td><td style="color:#059669;font-weight:600">30-70K</td><td style="font-weight:600">52K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:100%;background:#059669;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">万邑通</td><td>9</td><td style="color:#059669;font-weight:600">20-70K</td><td style="font-weight:600">46K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:88%;background:#059669;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">顺丰</td><td>13</td><td style="color:#059669;font-weight:600">17-100K</td><td style="font-weight:600">43K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:82%;background:#059669;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">极兔</td><td>4</td><td style="color:#059669;font-weight:600">20-55K</td><td style="font-weight:600">40K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:76%;background:#059669;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">德邦</td><td>5</td><td style="color:#059669;font-weight:600">15-75K</td><td style="font-weight:600">38K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:73%;background:#d97706;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">诚天国际</td><td>2</td><td style="color:#059669;font-weight:600">20-50K</td><td style="font-weight:600">35K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:67%;background:#d97706;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">中通</td><td>1</td><td style="color:#059669;font-weight:600">26-40K</td><td style="font-weight:600">33K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:63%;background:#d97706;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">菜鸟</td><td>8</td><td style="color:#059669;font-weight:600">14-60K</td><td style="font-weight:600">32K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:61%;background:#d97706;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">圆通</td><td>4</td><td style="color:#059669;font-weight:600">15-40K</td><td style="font-weight:600">26K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:50%;background:#6b7280;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">燕文</td><td>2</td><td style="color:#059669;font-weight:600">20-30K</td><td style="font-weight:600">25K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:48%;background:#6b7280;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">申通</td><td>10</td><td style="color:#059669;font-weight:600">10-50K</td><td style="font-weight:600">23K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:44%;background:#6b7280;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">艾麦</td><td>4</td><td style="color:#059669;font-weight:600">13-35K</td><td style="font-weight:600">23K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:44%;background:#6b7280;border-radius:5px"></div></div></td></tr><tr><td style="font-weight:600">韵达</td><td>2</td><td style="color:#059669;font-weight:600">10-30K</td><td style="font-weight:600">19K</td><td><div style="height:10px;background:#e5e7eb;border-radius:5px;overflow:hidden"><div style="height:100%;width:36%;background:#6b7280;border-radius:5px"></div></div></td></tr></table>
+  <div class="insight" style="margin-top:10px"><strong>三个梯队分化：</strong>跨越/万邑通/顺丰/极兔(40K+)为第一梯队，已设独立AI架构师/Agent岗；德邦/诚天/中通/菜鸟(30-38K)处于加速期；圆通/燕文/申通/韵达(&lt;27K)AI多停留在产品运营层面。顺丰以13岗、17-100K成行业标杆。</div>
+</div>
+
+<div class="section">
+  <div class="section-title">🏛️ 互联网大厂 AI 岗位 <span class="cnt">4家</span></div>
+  <table><tr><th>公司</th><th>有效岗位</th><th>薪资范围</th><th>平均月薪</th><th>典型岗位</th></tr><tr><td style="font-weight:600">腾讯</td><td>27</td><td style="color:#1d4ed8;font-weight:600">25-110K</td><td style="font-weight:600">49K</td><td style="font-size:12px"><span style="font-size:11px;color:#374151">&bull; AI产品解决方案架构师(深圳) (25-50k·16薪)</span><br><span style="font-size:11px;color:#374151">&bull; AI infra规划架构师(深圳) (30-60k·15薪)</span><br><span style="font-size:11px;color:#374151">&bull; 元宝-Agent架构工程师(深圳) (30-60k·15薪)</span></td></tr><tr><td style="font-weight:600">阿里</td><td>1</td><td style="color:#1d4ed8;font-weight:600">30-60K</td><td style="font-weight:600">45K</td><td style="font-size:12px"><span style="font-size:11px;color:#374151">&bull; Agent算法工程师-数据-阿里安全（杭州） (30-60k·16薪)</span></td></tr><tr><td style="font-weight:600">京东</td><td>2</td><td style="color:#1d4ed8;font-weight:600">25-60K</td><td style="font-weight:600">41K</td><td style="font-size:12px"><span style="font-size:11px;color:#374151">&bull; AI架构师（深圳） (30-60k·20薪)</span><br><span style="font-size:11px;color:#374151">&bull; Agent开发工程师-京东健康 (25-50k·18薪)</span></td></tr><tr><td style="font-weight:600">美团</td><td>2</td><td style="color:#1d4ed8;font-weight:600">30-70K</td><td style="font-weight:600">50K</td><td style="font-size:12px"><span style="font-size:11px;color:#374151">&bull; AI架构师（深圳） (30-60k·15薪)</span><br><span style="font-size:11px;color:#374151">&bull; 大模型算法工程师（agent应用/美团核心S级项目）（北京） (40-70k)</span></td></tr></table>
+  <div class="insight" style="margin-top:10px"><strong>各有所侧重：</strong>美团(50K)领跑且设核心S级Agent岗；阿里(45K)偏安全与Infra；腾讯(41K)侧重产品化Agent；京东(41K)聚焦业务场景Agent。大厂共识：Agent能力已是基操，高级岗位要求端到端架构+行业深度。</div>
+</div>
+
+<div class="section">
+  <div class="section-title">✅ 调研数据 vs 市场报告：交叉验证 <span class="cnt">5项</span></div>
+  <table><tr><th>维度</th><th>调研数据</th><th>市场报告验证</th><th>一致性</th></tr><tr><td style="font-weight:600">AI岗位薪资</td><td style="font-size:12px">月薪中位数40K</td><td style="font-size:12px;color:#555">脉脉: 平均月薪超6万
+AI科学家月薪13万+</td><td><span style="color:#059669">✅ 调研保守但整体吻合</span></td></tr><tr><td style="font-weight:600">Agent为核心技能</td><td style="font-size:12px">Agent岗占13%
+候选人Agent渗透率89%</td><td style="font-size:12px;color:#555">证券时报: "大厂抢Agent人才"
+36Kr: "Agent革命重塑招聘"</td><td><span style="color:#059669">✅ 完全一致</span></td></tr><tr><td style="font-weight:600">具身智能新赛道</td><td style="font-size:12px">顺丰设具身智能专家(50-80K)
+美团招感知算法工程师</td><td style="font-size:12px;color:#555">脉脉: 岗位暴增15倍
+行业: 年薪超30万</td><td><span style="color:#059669">✅ 调研捕捉到前沿</span></td></tr><tr><td style="font-weight:600">物流AI爆发</td><td style="font-size:12px">物流13家约63个AI岗位
+顺丰全链覆盖</td><td style="font-size:12px;color:#555">前程无忧: 职位增长超200%
+行研: AI成物流刚性需求</td><td><span style="color:#d97706">⚠️ 头部集中，中小物流可能被高估</span></td></tr><tr><td style="font-weight:600">AI人才缺口</td><td style="font-size:12px">部分低薪岗长期挂招
+存在"挂AI名招Java"</td><td style="font-size:12px;color:#555">行业: 缺口约500万
+新设400+专业但供需错配</td><td><span style="color:#d97706">⚠️ 数据支持"供需错配"判断</span></td></tr></table>
+  <div class="warn">
+    <strong>⚠️ 数据偏差提示：</strong>9位候选人样本量偏小，技能渗透率外推需谨慎；部分"非典型AI岗"(3个：申通&middot;业务培训岗（上海）(13-19K·13薪)、德邦&middot;资深UI设计师（上海）(18-35K)、艾麦&middot;系统培训师（杭州）(13-25K·14薪))实质是传统岗位+AI标签，做薪酬对标时应剔除。
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">💡 综合结论与招聘策略建议</div>
+
+  <div class="conclusion-box">
+    <div class="ctitle">💰 薪资策略</div>
+    <div class="item"><strong>Agent开发(3-5年)：</strong>市场公允45-60W/年，调研中多数候选人自估偏低(40-50W)，建议上浮以增强竞争力</div>
+    <div class="item"><strong>AI架构师(7年+)：</strong>市场价60-80W/年，大厂可达80-110W。关键区分在于端到端Agent落地经验而非title</div>
+    <div class="item"><strong>具身智能/感知：</strong>供给极度稀缺，需准备高出同级别20-30%的预算</div>
+  </div>
+
+  <div class="conclusion-box">
+    <div class="ctitle">🎯 招聘策略</div>
+    <div class="item"><strong>JD要精准而非堆砌：</strong>避免同时要求Agent/RAG/微调/部署/前端——过于芜杂反筛掉优质候选人，建议按级别分层</div>
+    <div class="item"><strong>警惕"挂AI名"陷阱：</strong>10-16K挂AI名的前后端岗会损伤雇主品牌，定价应反映岗位实质</div>
+    <div class="item"><strong>对标顺丰岗位矩阵：</strong>顺丰已建成AI架构→Agent开发→具身智能→AI产品→效能工具→AI运维的完整链，可作为物流AI化的参考模型</div>
+  </div>
+
+  <div class="conclusion-box">
+    <div class="ctitle">📊 数据完善建议</div>
+    <div class="item">关注<strong>校招AI人才</strong>市场——市场报告显示2026校招AI岗激增14倍，对应届生定价和长期人才策略很重要</div>
+    <div class="item">扩充候选人样本量(当前9人)，获取<strong>实际入职薪资</strong>而非仅期望薪资以校准差距</div>
+  </div>
+</div>
+
+<div class="footer">
+  数据来源：企业内部AI岗位调研(薪酬信息+同行招聘) · 市场数据引用脉脉/猎聘/前程无忧/36Kr/证券时报/每日经济新闻等2026年公开报告
+</div>
+
+</div>
+</body>
+</html>
